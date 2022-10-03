@@ -4,9 +4,10 @@ using LazyArtifacts
 
 using ConstrainedRootSolvers: ReduceStepMethodND, SolutionToleranceND, find_peak
 using DocStringExtensions: TYPEDFIELDS, TYPEDEF
+using EmeraldConstants: AVOGADRO, H_PLANCK, K_STEFAN, LIGHT_SPEED, T₂₅
 using LinearAlgebra: mul!, pinv
 using MAT: matread
-using PkgUtility: AVOGADRO, H_PLANCK, K_STEFAN, LIGHT_SPEED, T_25, numerical∫, read_csv
+using PkgUtility: numerical∫, read_csv
 using QuadGK: quadgk
 using SpecialFunctions: expint
 using Statistics: mean
